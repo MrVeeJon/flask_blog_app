@@ -49,7 +49,7 @@ Make sure you have the following installed:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your_username/flask-blog-app.git
+    git clone https://github.com/MrVeeJon/flask_blog_app.git
     cd flask-blog-app
     ```
 
@@ -117,7 +117,7 @@ flask-blog-app/
 ├── .env                  # Environment variables
 └── README.md             # This file
   
-    
+```
 
 
 ## Contributing

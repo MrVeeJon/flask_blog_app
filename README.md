@@ -113,7 +113,7 @@ flask-blog-app/
 │   └── layout.html       # Base layout
 ├── static/               # Static assets (CSS, images)
 │   ├── style.css         # Basic styling
-├── requirements.txt      # Python dependencies
+├── requirements-dev.txt  # Python dependencies
 ├── .env                  # Environment variables
 └── README.md             # This file
   

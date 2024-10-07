@@ -21,10 +21,9 @@ jobs:
         pip install -r requirements-dev.txt
 
     - name: Set environment variables
-      env:
-        SECRET_KEY: ${{ secrets.SECRET_KEY }}
-        DATABASE_URL: sqlite:///:memory:
-      run: echo "Environment variables set"
+      run: |
+        echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> $GITHUB_ENV
+        echo "DATABASE_URL=sqlite:///:memory:" >> $GITHUB_ENV
 
     - name: Run tests
       run: |
